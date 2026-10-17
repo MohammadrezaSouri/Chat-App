@@ -23,14 +23,3 @@ Multiple clients connect simultaneously to a server and broadcast messages to ea
 | Boilerplate | Lombok |
 
 ---
-
-##  Run
-
-**Server:**
-```bash
-mvn exec:java -Dexec.mainClass="app.ServerApp"
-```
-
-**Client (هر بار توی یه terminal جدید):**
-```bash
-mvn exec:java -Dexec.mainClass="app.ClientApp"
